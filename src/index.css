@@ -1,0 +1,7 @@
+@import url("../assets/fonts/static/Inter-Bold.ttf");
+@import url("../assets/fonts/static/Inter-ExtraBold.ttf");
+@import url("../assets/fonts/static/Inter-Regular.ttf");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
