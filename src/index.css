@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: interbold;
-    font-weight: 400;
-    src: url(../assets/fonts/static/Inter-Bold.ttf) format("tff");
-  }
-  @font-face {
-    font-family: extrabold;
-    font-weight: 400;
-    src: url(../assets/fonts/static/Inter-ExtraBold.ttf) format("tff");
-  }
-  @font-face {
-    font-family: regular;
-    font-weight: 400;
-    src: url(../assets/fonts/static/Inter-Regular.ttf) format("tff");
-  }
+@font-face {
+  font-family: "interbold";
+  src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "extrabld";
+  src: url(../assets/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "regular";
+  src: url(../assets/fonts/static/Inter-Regular.ttf);
 }
